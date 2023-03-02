@@ -54,7 +54,7 @@ FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 't.me/cynitebackup')
 HOW_DWLD_LINK = environ.get('HOW_DWLD_LINK', 'https://t.me/pathan_h/60')
 
 # Log Channels
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -1001896609847))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', -1001720210775))
 RQST_LOG_CHANNEL = int(environ.get('RQST_LOG_CHANNEL', -1001896609847))
 
 # Bot Options

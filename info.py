@@ -21,7 +21,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "6088261601:AAHDYDGB7Cc5Gr6vXZ7VJwvjBKCqzUW
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-PICS = (environ.get('PICS', 'https://telegra.ph/file/5c586e00f34665267ab5b.jpg')).split()
+PICS = (environ.get('PICS', 'https://telegra.ph/file/f108c206b4b9da4097ff4.jpg')).split()
 NOR_IMG = environ.get("NOR_IMG", "https://telegra.ph/file/94750f782f45f592b823f.jpg")
 SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/8ee413afc32e5b393e790.jpg")
 NEWGRP = environ.get("NEWGRP", "https://telegra.ph/file/07c14729659c7c2b99f5a.jpg")
@@ -42,13 +42,13 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Cynitev5Bot")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 # Channel Button Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/cynitesupport')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/cynitebackup')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/cynitesupport')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/DD_Movies_Request')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/pathan_h')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/DD_Movies_Request')
 MSG_ALRT = environ.get('MSG_ALRT', 'Share and Support Us')
 
 # Custom Chats
-SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', -1001797596826))
+SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', -1001807696174))
 FILE_CHANNEL = int(environ.get('FILE_CHANNEL', -1001810806290))
 FILE_CHANNEL_LINK = environ.get('FILE_CHANNEL_LINK', 't.me/cynitebackup')
 HOW_DWLD_LINK = environ.get('HOW_DWLD_LINK', 'https://t.me/pathan_h/60')
